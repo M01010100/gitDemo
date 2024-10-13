@@ -2,8 +2,6 @@
 #include <string>
 using namespace std;
 #
-#
-#
 string print_following(string word_1, string word_2, int n){
 	string out;
 	for(int i = 0; i < n; i++){

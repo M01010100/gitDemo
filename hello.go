@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-var outpu string
+var output string
 
 func printOut(in_1 string, in_2 string, n int) string {
 	var sb strings.Builder
@@ -18,6 +18,6 @@ func printOut(in_1 string, in_2 string, n int) string {
 	return sb.String()
 }
 func main() {
-	output := printOut("Pesto is", "a Penguin", 2)
+	output := printOut("Pesto is", "a Penguin", 5)
 	fmt.Println(output)
 }
